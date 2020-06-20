@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 public class NotificationService {
 	private static final Logger LOGGER = LoggerFactory.getLogger(NotificationService.class);
 
+
 	/**
 	 * Notifica um usuário à partir de qualquer registro capturado pela plataforma Kafka
 	 * @param mensagem
@@ -16,5 +17,6 @@ public class NotificationService {
 	@KafkaListener(topics = "example", groupId = "group_id")
 	public void notificar(String mensagem) {
 		LOGGER.info("Notificação: {}", mensagem);
+
 	}
 }
