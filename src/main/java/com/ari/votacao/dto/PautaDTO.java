@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class PautaDTO {
-	private Integer id;
+	private Long id;
 	private String descricao;
 }

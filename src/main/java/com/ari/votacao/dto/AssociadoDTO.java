@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class AssociadoDTO {
-	private Integer id;
+	private Long id;
 	private String cpf;
 	private PautaDTO pauta;
 }

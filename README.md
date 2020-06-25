@@ -1,5 +1,5 @@
 # Votacao
-Uma RESTful API de Votação utilizando Spring, Kafka e JMeter
+Uma RESTful API de Votação utilizando Spring e Kafka
 
 ###INSTRUÇÕES DE USO:
 
