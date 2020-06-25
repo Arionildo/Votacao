@@ -27,7 +27,7 @@ public class Votacao {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_pauta")
-    private Pauta Pauta;
+    private Pauta pauta;
 
     @OneToOne
     private Associado associado;
