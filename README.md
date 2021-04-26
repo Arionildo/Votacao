@@ -26,7 +26,7 @@ git clone https://github.com/Arionildo/Votacao.git
 cd Votacao
 mvn package
 cd target
-java -jar votacao-0.2.0-SNAPSHOT.jar
+java -jar votacao-1.0.0.jar
 ````
 
 #### Swagger
